@@ -1,0 +1,139 @@
+*{
+    width: 1020px;
+    margin: 0 auto;
+    padding: 0;
+}
+.portfolio {
+    background-color: #2d303a;
+    padding-top: 68px;
+}
+h2{
+    color: #6c7491;
+    font-size: 22px;
+    padding-left: 42px;
+}
+p{
+    color: #6c7491;
+    padding-top: 34px;
+    padding-left: 42px;
+    padding-bottom: 24px;
+    font-size: 16px;
+}
+nav {
+    padding-left: 42px;
+    padding-bottom: 20px;
+}
+.link-to-navigation{
+    color: #6c7491;
+    text-decoration: none;
+    font-size: 9px;
+    border: 1px solid #6c7491;
+    border-radius: 5px;
+    padding: 6px;
+
+}
+.link-to-navigation:hover {
+    color: white;
+    border-color: white;
+}
+.picture-container {
+    display: grid;
+    width: 960px;
+    padding-left: 40px;
+    padding-right: 20px;
+    background-color: #2d303a;
+    padding-bottom: 68px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 20px;
+    justify-items: left;
+
+
+}
+.picture-content{
+    width: 220px;
+    height: 185px;
+    padding: 0;
+    margin: 0;
+}
+.pic1-1{
+    background-image: url("assets/photo1_1.jpg");
+    background-size: 220px 185px;
+}
+.pic1-2{
+    background-image: url("assets/photo1_2.jpg");
+    background-size: 220px 185px;
+}
+.pic1-3{
+    background-image: url("assets/photo1_3.jpg");
+    background-size: 220px 185px;
+}
+.pic1-4{
+    background-image: url("assets/photo1_4.jpg");
+    background-size: 220px 185px;
+}
+.pic2-1{
+    background-image: url("assets/photo2_1.jpg");
+    background-size: 220px 185px;
+
+}
+.pic2-2{
+    background-image: url("assets/photo2_2.jpg");
+    background-size: 220px 185px;
+
+}
+.pic2-3{
+    background-image: url("assets/photo2_3.jpg");
+    background-size: 220px 185px;
+
+}
+.pic2-4{
+    background-image: url("assets/photo2_4.jpg");
+    background-size: 220px 185px;
+
+}
+.pic3-1{
+    background-image: url("assets/photo3_1.jpg");
+    background-size: 220px 185px;
+
+}
+.pic3-2{
+    background-image: url("assets/Image3_2.png");
+    background-size: 220px 185px;
+
+}
+.pic3-3{
+    background-image: url("assets/Image3_3.png");
+    background-size: 220px 185px;
+
+}
+.pic3-4{
+    background-image: url("assets/Image3_4.png");
+    background-size: 220px 185px;
+
+}
+.line-container-1 {
+    background-color: #323746;
+    height: 6px;
+}
+.about_us{
+    padding-top: 68px;
+    color: #979db4;
+}
+.about-us-headline{
+    color: #979db4;
+    width: 978px;
+}
+.text-2 {
+    width: 936px;
+    color: #979db4;
+    padding-right: 40px;
+    padding-bottom: 54px;
+}
+.photo-container{
+    width: 300px;
+    height: 298px;
+}
+.photo-1{
+    background-image: url("assets/Image1girl.png");
+    background-size: 300px 298px;
+}
